@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
-header{
+header, footer{
   background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8), rgb(0,0,0,.2)), url(../images/바다속쓰레기.jpg);
   background-size: cover;
   background-position: center top;
@@ -45,11 +45,4 @@ img {
 
 .card-img:hover{
     transform: scale(1.2);
-  }
-
-  .footer{
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8), rgb(0,0,0,.2)), url(../images/바다속쓰레기.jpg);
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
   }
